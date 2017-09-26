@@ -17,7 +17,7 @@ function guess() {
         setMessage('You Win! :)');
         showAnswer(true);
         showReplay();
-    } else if(attempt.value >=10) {
+    } else if(attempt.value >= 10) {
         setMessage('You Lose! :(');
         showAnswer(false);
         showReplay();
@@ -36,7 +36,7 @@ function getResults(input) {
         } else if(answer.value.indexOf(input.charAt(i)) > -1) {
             html += '<span class="glyphicon glyphicon-transfer"></span>';
         } else {
-            html +- '<span class="glyphicon glyphicon-remove"></span>';
+            html += '<span class="glyphicon glyphicon-remove"></span>';
         }
     }
     html += '</div></div>';
