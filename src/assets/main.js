@@ -60,7 +60,7 @@ function setHiddenFields() {
 
 //setMessage Function
 function setMessage(message) {
-    document.getElementById('message'.innerHTML) = message;
+    document.getElementById('message').innerHTML = message;
 }
 
 //showAnswer Function
